@@ -89,37 +89,6 @@
             cursor: pointer;
         }
 
-        /* Categories Bar */
-        .categories {
-            display: flex;
-            gap: 8px;
-            padding: 10px 20px;
-            background-color: var(--header-bg);
-            border-bottom: 1px solid #27272a;
-            overflow-x: auto;
-        }
-
-        .category-btn {
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            padding: 6px 12px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 13px;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            white-space: nowrap;
-        }
-
-        .category-btn:hover, .category-btn.active {
-            background-color: #2c2c35;
-            color: white;
-        }
-
         /* Main Content Layout */
         .container {
             max-width: 1600px;
@@ -330,18 +299,6 @@
         </div>
     </header>
 
-    <!-- Categories Navigation -->
-    <div class="categories">
-        <button class="category-btn active"><i class="fas fa-mouse-pointer"></i> Clicker</button>
-        <button class="category-btn">.io</button>
-        <button class="category-btn"><i class="fas fa-compass"></i> Adventure</button>
-        <button class="category-btn"><i class="fas fa-users"></i> 2 Player</button>
-        <button class="category-btn"><i class="fas fa-bullseye"></i> Shooting</button>
-        <button class="category-btn"><i class="fas fa-futbol"></i> Sports</button>
-        <button class="category-btn"><i class="fas fa-car"></i> Car</button>
-        <button class="category-btn"><i class="fas fa-puzzle-piece"></i> Puzzle</button>
-    </div>
-
     <!-- Main Content Grid -->
     <div class="container">
         <!-- Html Games Section -->
@@ -429,7 +386,7 @@
                 <!-- Github Search Card -->
                 <div class="game-card" onclick="openGame('githubsearch.html', 'Github Search')">
                     <span class="badge new">New</span>
-                    <img src="https://imgs.search.brave.com/FG6H6NLOUaGGHa3W_4ioeHDQ6WCY63lTBuucjyVFdAw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWdpdGh1Yi1pY29u/LXN2Zy1kb3dubG9h/ZC1wbmctMzE0OTkx/Mi5wnpjPWF3ZWJw/Jnc9MTI4" alt="Github Search" class="game-thumbnail">
+                    <img src="https://imgs.search.brave.com/FG6H6NLOUaGGHa3W_4ioeHDQ6WCY63lTBuucjyVFdAw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWdpdGh1Yi1pY29u/LXN2Zy1kb3dubG9h/ZC1wbmctMzE0OTkx/Mi5wbmc_Zj13ZWJw/Jnc9MTI4" alt="Github Search" class="game-thumbnail">
                     <div class="game-info">
                         <div class="game-title">Github Search</div>
                     </div>
