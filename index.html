@@ -348,7 +348,7 @@
         <section>
             <div class="section-title">New games <span>View more ›</span></div>
             <div class="game-grid">
-                <!-- Subway Surfers Card linking to your uploaded file -->
+                <!-- Subway Surfers Card -->
                 <div class="game-card" onclick="openGame('clsubwaysurfersberlin.html', 'Subway Surfers')">
                     <span class="badge new">New</span>
                     <img src="https://imgs.search.brave.com/FZ2YciuLR4g1n-8VLNzHyTAlrFzZS93DFupJMyjzhcQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWV0YWNyaXRpYy5j/b20vYS9pbWcvcmVz/aXplL2Y3NWVkMjdm/NGRjNDlhZmRiNjcx/ZTQ4YmQ1OGI4NWFm/N2M0MTFiMWUvY2F0/YWxvZy9wcm92aWRl/ci82LzEyLzYtMS0y/MzY1ODQtNTIuanBn/P2F1dG89d2VicCZm/aXQ9Y29udGFpbiZo/ZWlnaHQ9NDgwJnF1/YWxpdHk9NzA" alt="Subway Surfers" class="game-thumbnail">
@@ -356,14 +356,23 @@
                         <div class="game-title">Subway Surfers</div>
                     </div>
                 </div>
+
+                <!-- Geometry Dash Lite Card -->
+                <div class="game-card" onclick="openGame('GeometryDashLite.html', 'Geometry Dash Lite')">
+                    <span class="badge new">New</span>
+                    <img src="https://imgs.search.brave.com/gxCHYGwAPcGkepDW1pjcmL9FVUyj2ffHh-8hWXgwXeU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLmxv/Z29zLWRvd25sb2Fk/LmNvbS8xMTQyOTIv/MzE0NjgtczEyODAt/ZmQ4YTA5MmYwMjc4/NGUxMzkxNzRjNjA4/ZTdkZjZkYjMucG5n/L0dlb21ldHJ5X0Rh/c2hfTG9hb18yMDEz/X2ljb25fbGl0ZS1z/MTI4MC5wbmc" alt="Geometry Dash Lite" class="game-thumbnail">
+                    <div class="game-info">
+                        <div class="game-title">Geometry Dash Lite</div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
 
-    <!-- Game Player Modal with Controls -->
+    <!-- Game Player Modal & Control Toolbar -->
     <div id="modal">
         <div class="modal-header-bar">
-            <span class="modal-game-title" id="modalTitle">Subway Surfers</span>
+            <span class="modal-game-title" id="modalTitle">Game Title</span>
             <div class="modal-controls">
                 <button class="control-btn" onclick="popOutGame()"><i class="fas fa-external-link-alt"></i> Pop Out</button>
                 <button class="control-btn" onclick="toggleFullScreen()"><i class="fas fa-expand"></i> Fullscreen</button>
